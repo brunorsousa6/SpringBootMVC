@@ -12,6 +12,7 @@ import javax.validation.constraints.NotBlank;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
+// Model para criar tabela no banco
 @Entity
 @Table(name = "TB_POST")
 public class Post {

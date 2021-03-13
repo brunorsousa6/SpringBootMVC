@@ -4,6 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.spring.codeblog.model.Post;
 
-public interface CodeBlogRepository extends JpaRepository<Post, Long>{
+public interface CodeblogRepository extends JpaRepository<Post, Long>{
 
 }
